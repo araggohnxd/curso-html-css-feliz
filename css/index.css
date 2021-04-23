@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A4042;
+    height: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 10px solid #000;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px 0px #000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    list-style: square;
+}
+
+.menu-items {
+    color: #FFF;
+    display: list-item;
+    font-size: 20px;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out, -webkit-text-stroke 100ms linear;
+}
+
+.menu-items.list::marker {
+    color: #7209B7;
+}
+
+.menu-items.list:hover {
+    transform: scale(1.08);
+    -webkit-text-stroke: 0.8px #FFF;
+}
+
+.menu-items.button {
+    display: inline-block;
+    color: #000;
+    background-color: #7209B7;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), background-color 250ms ease-in-out;
+}
+
+.menu-items.button:hover {
+    transform: scale(1.08);
+    background-color: #C4C4C4;
+    text-decoration: none;
+}
+
