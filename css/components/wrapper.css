@@ -1,0 +1,8 @@
+.wrapper {
+    display: inline-block;
+    margin: 100px 200px 60px;
+}
+
+.wrapper .navigation {
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+.action {
+    color: #FFF;
+    display: list-item;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 0 5px;
+    transition: background-color 100ms linear;
+}
+
+.action::marker {
+    color: #7209B7;
+}
+
+.action:hover {
+    background-color: #7209B7;
+}
