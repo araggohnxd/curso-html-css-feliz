@@ -8,7 +8,18 @@
     border-bottom: 10px solid #7209B7;
 }
 
+.banner .wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 100px 0 0 200px;
+}
+
+.banner .box {
+    margin-bottom: 70px;
+}
+
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }

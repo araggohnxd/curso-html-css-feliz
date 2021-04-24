@@ -2,8 +2,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #3A4042;
-    height: 80px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 20px;
     border-bottom: 10px solid #000;
 }

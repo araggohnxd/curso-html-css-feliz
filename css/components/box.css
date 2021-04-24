@@ -1,11 +1,8 @@
 .box {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
     background-color: #3A4042;
     padding: 35px 18px;
-    margin-bottom: 70px;
     box-shadow: 10px 10px 0px #000000;
     transition: transform 200ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out;
 }
