@@ -1,10 +1,10 @@
 .skills {
     box-sizing: border-box;
     background-color: #828282;
-    height: 730px;
     border-bottom: 10px solid #7209B7;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 45px;
 }
 
 .skills .title {

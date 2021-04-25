@@ -1,4 +1,5 @@
 .skill {
+    background-color: #FFF;
     width: 320px;
     height: 40px;
     border: 5px solid #000;
@@ -6,5 +7,13 @@
 }
 
 .skill::-moz-progress-bar {
+    background-color: #7209B7;
+}
+
+.skill::-webkit-progress-bar {
+    background-color: #FFF
+}
+
+.skill::-webkit-progress-value {
     background-color: #7209B7;
 }
