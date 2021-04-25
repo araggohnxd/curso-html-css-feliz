@@ -15,6 +15,7 @@
     text-shadow: none;
     font-size: 25px;
     margin-bottom: 16px;
+    transition: color 200ms ease-in-out;
 }
 
 .skills .wrapper {
@@ -44,4 +45,21 @@
     margin-right: 25px;
     width: 90px;
     height: max-content;
+    transition: transform 200ms cubic-bezier(.25,.1,.11,2.43);
+}
+
+.skills .tech:hover img{
+    transform: scale(1.08);
+}
+
+.skills .tech:hover .subtitle {
+    color: #FFF;
+}
+
+.skills .tech:hover .skill::-webkit-progress-value {
+    background-color: #AB79CC;
+}
+
+.skills .tech:hover .skill::-moz-progress-bar {
+    background-color: #AB79CC;
 }

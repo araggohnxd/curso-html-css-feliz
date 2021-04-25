@@ -8,6 +8,7 @@
 
 .skill::-moz-progress-bar {
     background-color: #7209B7;
+    transition: background-color 200ms ease-in-out;
 }
 
 .skill::-webkit-progress-bar {
@@ -16,4 +17,5 @@
 
 .skill::-webkit-progress-value {
     background-color: #7209B7;
+    transition: background-color 200ms ease-in-out;
 }
