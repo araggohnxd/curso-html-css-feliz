@@ -1,0 +1,27 @@
+.logo-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    box-shadow: 10px 10px 0 #FFFFFF;
+    transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out;
+}
+
+.logo-project:nth-child(even) {
+    background-color: #7209B7;
+}
+
+.logo-project:nth-child(odd) {
+    background-color: #4F5C89;
+}
+
+.logo-project .icon {
+    height: 245px;
+}
+
+.logo-project:hover {
+    transform: scale(1.08);
+    box-shadow: 20px 20px 0 #FFF;
+}
