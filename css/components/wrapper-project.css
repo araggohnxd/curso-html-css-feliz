@@ -1,0 +1,8 @@
+.wrapper-project {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+}
