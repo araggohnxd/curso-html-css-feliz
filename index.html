@@ -21,16 +21,20 @@
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/skill-tech.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/wrapper-project.css">
     <link rel="stylesheet" href="css/components/-button.css">
+    <link rel="stylesheet" href="css/components/logo-project.css">
 </head>
 
 <body>
     <header class="main-header">
-        <a href=""><img class="main-avatar" src="assets/img/avatar.jpg" alt="Avatar do Aphelios"></a>
+        <a href="">
+            <img class="main-avatar" src="assets/img/avatar.jpg" alt="Avatar do Aphelios">
+        </a>
 
         <nav class="main-navigation">
-            <a class="menu-action" href="" lang="en">Skills</a>
-            <a class="menu-action" href="">Projetos</a>
+            <a class="menu-action" href="#skills" lang="en">Skills</a>
+            <a class="menu-action" href="#projetos">Projetos</a>
             <a class="menu-action" href="">Sobre</a>
             <a class="menu-action" href="">Contatos</a>
             <a class="menu-action -button" href="" lang="en">Download CV</a>
@@ -51,7 +55,7 @@
         </div>
     </section>
 
-    <section class="main-section -first">
+    <section id="skills" class="main-section -first">
         <h1 class="main-title">Skills</h1>
         
         <div class="wrapper-skill">
@@ -129,9 +133,28 @@
         </div>
     </section>
 
-    <section class="main-section -third">
+    <section id="projetos" class="main-section -third">
         <h1 class="main-title">Projetos</h1>
 
+        <div class="wrapper-project">
+            <div class="logo-project">
+                <a href="">
+                    <img class="icon" src="assets/img/logo-firedlabs.svg" alt="Logo FiredLabs">
+                </a>
+            </div>
+
+            <div class="logo-project">
+                <a href="">
+                    <img class="icon" src="assets/img/logo-collabcode.png" alt="Logo CollabCode">
+                </a>
+            </div>
+
+            <div class="logo-project">
+                <a href="">
+                    <img class="icon" src="assets/img/avatar.jpg" alt="Avatar Portfólio">
+                </a>
+            </div>
+        </div>
     </section>
 </body>
 
