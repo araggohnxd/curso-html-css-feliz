@@ -1,4 +1,4 @@
-.box {
+.main-box {
     display: inline-block;
     text-align: center;
     background-color: #3A4042;
@@ -7,11 +7,11 @@
     transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out;
 }
 
-.box .title {
+.main-box .main-title {
     margin-bottom: 45px;
 }
 
-.box:hover {
+.main-box:hover {
     transform: scale(1.03);
     box-shadow: 20px 20px 0px #000000;
 }

@@ -1,0 +1,45 @@
+.skill-tech {
+    display: flex;
+    flex: 1 0;
+    align-items: center;
+}
+
+.skill-tech .wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.skill-tech .icon {
+    margin-right: 25px;
+    width: 90px;
+    transition: transform 200ms cubic-bezier(.25,.1,.11,2.43);
+}
+
+.skill-tech .main-subtitle {
+    text-shadow: none;
+    font-size: 25px;
+    margin-bottom: 15px;
+    transition: color 200ms ease-in-out;
+}
+
+.skill-tech .progress-bar {
+    width: 320px;
+}
+
+.skill-tech:hover .icon{
+    transform: scale(1.08);
+}
+
+.skill-tech:hover .main-subtitle {
+    color: #FFF;
+}
+
+.skill-tech:hover .progress-bar::-webkit-progress-value {
+    background-color: #AB79CC;
+}
+
+.skill-tech:hover .progress-bar::-moz-progress-bar {
+    background-color: #AB79CC;
+}

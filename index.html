@@ -9,122 +9,128 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" > 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/avatar.css">
-    <link rel="stylesheet" href="css/components/navigation.css">
-    <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/skills.css">
-    <link rel="stylesheet" href="css/components/skill.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-avatar.css">
+    <link rel="stylesheet" href="css/components/main-navigation.css">
+    <link rel="stylesheet" href="css/components/menu-action.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/skill-tech.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/-button.css">
 </head>
 
 <body>
-    <header class="header">
-        <a href=""><img class="avatar" src="assets/img/avatar.jpg" alt="Avatar do Aphelios"></a>
+    <header class="main-header">
+        <a href=""><img class="main-avatar" src="assets/img/avatar.jpg" alt="Avatar do Aphelios"></a>
 
-        <nav class="navigation">
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="action button" href="" lang="en">Download CV</a>
+        <nav class="main-navigation">
+            <a class="menu-action" href="" lang="en">Skills</a>
+            <a class="menu-action" href="">Projetos</a>
+            <a class="menu-action" href="">Sobre</a>
+            <a class="menu-action" href="">Contatos</a>
+            <a class="menu-action -button" href="" lang="en">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
-                <h1 class="title">Matheus Oliveira</h1>
-                <h2 class="subtitle">WebDev Student</h2>
+            <div class="main-box">
+                <h1 class="main-title">Matheus Oliveira</h1>
+                <h2 class="main-subtitle">WebDev Student</h2>
             </div>
             
             <div class="navigation">
-                <a class="action button" href="" lang="en">Download CV</a>
-                <a class="action button" href="">Contatos</a>
+                <a class="menu-action -button" href="" lang="en">Download CV</a>
+                <a class="menu-action -button" href="">Contatos</a>
             </div>
         </div>
     </section>
 
-    <section class="skills">
-        <h1 class="title">Skills</h1>
+    <section class="main-section -first">
+        <h1 class="main-title">Skills</h1>
         
-        <div class="wrapper">
-            <div class="tech">
-                <img src="assets/img/ico_html5.png" alt="HTML5">
+        <div class="wrapper-skill">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_html5.png" alt="HTML5">
 
-                <div class="progress">
-                    <h2 class="subtitle">HTML</h2>
-                    <progress class="skill" max="100" value="75"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">HTML</h2>
+                    <progress class="progress-bar" max="100" value="75"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_css3.png" alt="CSS3">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_css3.png" alt="CSS3">
 
-                <div class="progress">
-                    <h2 class="subtitle">CSS</h2>
-                    <progress class="skill" max="100" value="75"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">CSS</h2>
+                    <progress class="progress-bar" max="100" value="75"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_js.png" alt="JavaScript">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_js.png" alt="JavaScript">
 
-                <div class="progress">
-                    <h2 class="subtitle">JavaScript</h2>
-                    <progress class="skill" max="100" value="50"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">JavaScript</h2>
+                    <progress class="progress-bar" max="100" value="50"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_react.png" alt="React">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_react.png" alt="React">
 
-                <div class="progress">
-                    <h2 class="subtitle">React</h2>
-                    <progress class="skill" max="100" value="20"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">React</h2>
+                    <progress class="progress-bar" max="100" value="20"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_nodejs.png" alt="NodeJS">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_nodejs.png" alt="NodeJS">
     
-                <div class="progress">
-                      <h2 class="subtitle">NodeJS</h2>
-                    <progress class="skill" max="100" value="10"></progress>
+                <div class="wrapper">
+                      <h2 class="main-subtitle">NodeJS</h2>
+                    <progress class="progress-bar" max="100" value="10"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_tdd.png" alt="TDD">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_tdd.png" alt="TDD">
         
-                <div class="progress">
-                    <h2 class="subtitle">TDD</h2>
-                    <progress class="skill" max="100" value="10"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">TDD</h2>
+                    <progress class="progress-bar" max="100" value="10"></progress>
                 </div>
-            </div>
+            </article>
             
-            <div class="tech">
-                <img src="assets/img/ico_restapi.png" alt="Rest API">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_restapi.png" alt="Rest API">
         
-                <div class="progress">
-                    <h2 class="subtitle">Rest API</h2>
-                    <progress class="skill" max="100" value="10"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">Rest API</h2>
+                    <progress class="progress-bar" max="100" value="10"></progress>
                 </div>
-            </div>
+            </article>
 
-            <div class="tech">
-                <img src="assets/img/ico_ux.png" alt="UX">
+            <article class="skill-tech">
+                <img class="icon" src="assets/img/ico_ux.png" alt="UX">
         
-                <div class="progress">
-                    <h2 class="subtitle">UX</h2>
-                    <progress class="skill" max="100" value="40"></progress>
+                <div class="wrapper">
+                    <h2 class="main-subtitle">UX</h2>
+                    <progress class="progress-bar" max="100" value="40"></progress>
                 </div>
-            </div>
+            </article>
         </div>
+    </section>
+
+    <section class="main-section">
+
     </section>
 </body>
 

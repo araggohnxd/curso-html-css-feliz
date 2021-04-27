@@ -1,4 +1,4 @@
-.action {
+.menu-action {
     color: #FFF;
     display: list-item;
     font-size: 20px;
@@ -10,10 +10,10 @@
     transition: background-color 100ms linear;
 }
 
-.action::marker {
+.menu-action::marker {
     color: #7209B7;
 }
 
-.action:hover {
+.menu-action:hover {
     background-color: #7209B7;
 }

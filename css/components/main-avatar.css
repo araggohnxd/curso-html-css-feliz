@@ -1,4 +1,4 @@
-.avatar {
+.main-avatar {
     display: block;
     width: 60px;
     height: 60px;
@@ -6,7 +6,7 @@
     transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), box-shadow 250ms ease-in-out;
 }
 
-.avatar:hover {
+.main-avatar:hover {
     transform: scale(1.08);
     box-shadow: 5px 5px 0px #000;
 }
