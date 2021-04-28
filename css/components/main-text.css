@@ -1,6 +1,9 @@
 .main-text {
-    font-size: 30px;
     text-align: justify;
     margin-right: 80px;
     margin-left: 80px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
 }
