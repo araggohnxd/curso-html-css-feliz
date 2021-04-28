@@ -13,5 +13,5 @@
 
 .main-box:hover {
     transform: scale(1.03);
-    box-shadow: 20px 20px 0px #000000;
+    box-shadow: 16px 16px 0px #000000;
 }
