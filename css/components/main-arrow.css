@@ -1,0 +1,44 @@
+.main-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #828282;
+    box-shadow: 5px 5px 0 #000;
+    transition: transform 200ms cubic-bezier(.25,.1,.11,2.43), box-shadow 200ms ease-in-out;
+}
+
+.arrow-direction {
+    width: 0;
+    height: 0;
+}
+
+.arrow-direction.-right {
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 34px solid #7209B7;
+}
+
+.arrow-direction.-left {
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-right: 34px solid #7209B7;
+}
+
+.arrow-direction.-up {
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    border-bottom: 34px solid #7209B7;
+}
+
+.arrow-direction.-down {
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    border-top: 34px solid #7209B7;
+}
+
+.main-arrow:hover {
+    transform: scale(1.08);
+    box-shadow: 8px 8px 0 #000;
+}
