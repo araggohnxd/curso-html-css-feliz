@@ -1,0 +1,57 @@
+.main-carousel {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 0px 150px;
+    margin-bottom: 50px;
+}
+
+.main-carousel .main-subtitle {
+    font-size: 25px;
+    text-shadow: none;
+    margin-bottom: 50px;
+}
+
+.main-carousel .wrapperCarousel {
+    width: 100%;
+}
+
+.main-carousel .scroller {
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-type: x mandatory;
+    overflow: hidden;
+}
+
+.main-carousel .wrapper {
+    scroll-snap-align: center;
+}
+
+.main-carousel::after {
+    content: "";
+    background-color: #7209B7;
+    height: 6px;
+    width: 90%;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.main-carousel::before {
+    content: "";
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 3px dashed #7209B7;
+    border-top: 3px dashed #7209B7;
+    position: absolute;
+}
+
+.main-carousel .carousel-img::after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    border: 3px dashed #7209B7;
+    bottom: 145px;
+    left: 50%;
+}

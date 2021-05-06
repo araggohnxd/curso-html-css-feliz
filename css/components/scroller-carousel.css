@@ -1,9 +1,0 @@
-.scroller-carousel {
-    display: flex;
-    overflow-x: hidden;
-    scroll-snap-type: x mandatory;
-}
-
-.scroller-carousel .wrapper {
-    scroll-snap-align: center;
-}

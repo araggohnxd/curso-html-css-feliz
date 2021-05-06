@@ -1,6 +1,5 @@
 .carousel-img {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 140px;
     margin: 0 25px;
@@ -9,20 +8,10 @@
 }
 
 .carousel-img.-nofit {
-    background-color: blueviolet;
+    background-color: #7209B7;
     padding: 0 20px;
 }
 
 .carousel-img.-nofit .icon {
     max-height: 110px;
-}
-
-.carousel-img::after {
-    content: "";
-    width: 0px;
-    height: 35px;
-    position: absolute;
-    margin: 0px 50% 185px;
-    border-left: 5px dashed purple;
-    border-right: 5px dashed purple;
 }
