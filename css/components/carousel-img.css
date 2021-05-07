@@ -10,6 +10,15 @@
 .carousel-img.-nofit {
     background-color: #7209B7;
     padding: 0 20px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.carousel-img.-fit {
+    background-color: #AB79CC;
+}
+
+.carousel-img.-fit .icon {
+    transition: opacity 200ms ease-in-out;
 }
 
 .carousel-img.-nofit .icon {
