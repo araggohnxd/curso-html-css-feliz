@@ -22,3 +22,7 @@
 .main-section.-third {
     background-color: #000;
 }
+
+.main-section.-noborder {
+    border: none;
+}
