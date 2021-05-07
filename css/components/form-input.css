@@ -1,0 +1,19 @@
+.form-input {
+    width: 100%;
+    border: 5px solid #000;
+    height: 50px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Fira Code', serif;
+}
+
+.form-input.-message {
+    resize: none;
+    height: 320px;
+}
+
+.form-input::placeholder {
+    color: #C4C4C4;
+    font-size: 20px;
+}
