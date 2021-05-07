@@ -29,14 +29,17 @@
     <link rel="stylesheet" href="css/components/wrapper-carousel.css">
     <link rel="stylesheet" href="css/components/carousel-img.css">
     <link rel="stylesheet" href="css/components/main-arrow.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/form-label.css">
+    <link rel="stylesheet" href="css/components/form-input.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 
 <body>
     <header class="main-header">
-        <a href="">
+        <a href="#">
             <img class="main-avatar" src="assets/img/avatar.jpg" alt="Avatar do Aphelios">
         </a>
-
         <nav class="main-navigation">
             <a class="menu-action" href="#skills" lang="en">Skills</a>
             <a class="menu-action" href="#projetos">Projetos</a>
@@ -55,7 +58,7 @@
             
             <div class="navigation">
                 <a class="main-button" href="assets/img/cv.jpeg" download="cv" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
+                <a class="main-button" href="#contatos">Contatos</a>
             </div>
         </div>
     </section>
@@ -171,7 +174,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2014</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -185,7 +188,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2017</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -213,7 +216,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2014</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -227,7 +230,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2017</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -255,7 +258,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2014</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -269,7 +272,7 @@
         
                     <figure class="wrapper">
                         <figcaption class="main-subtitle">2017</figcaption>
-                        <div class="carousel-img">                
+                        <div class="carousel-img -fit">                
                             <img class="icon" src="assets/img/logo-caelum.png" alt="Logo da Caelum">
                         </div>
                     </figure>
@@ -303,7 +306,45 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra ipsum nunc aliquet bibendum enim facilisis. Viverra maecenas accumsan lacus vel facilisis. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Cursus sit amet dictum sit amet. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Pellentesque massa placerat duis ultricies lacus sed. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Lacus sed viverra tellus in hac habitasse platea dictumst. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Porttitor lacus luctus accumsan tortor posuere ac. Fermentum posuere urna nec tincidunt.
         </p>
     </section>
-    <script src="js/script.js"></script>
+
+    <section id="contatos" class="main-section -first -noborder">
+        <h1 class="main-title">Contatos</h1>
+
+        <form action="" class="main-form">
+            <div class="wrapper">
+                <label class="form-label" for="name">Nome</label>
+                <input class="form-input" type="text" name="name" id="name" placeholder="Ex: Franklin Roosevelt" spellcheck="false" required>
+            </div>
+
+            <div class="wrapper">
+                <label class="form-label" for="Email">Email</label>
+                <input class="form-input" type="email" name="email" id="email" placeholder="Ex: lil_frank1929@gmail.com" spellcheck="false" required>
+            </div>
+                
+            <div class="wrapper">
+                <label class="form-label" for="message">Mensagem</label>
+                <textarea class="form-input -message" name="message" id="message" placeholder="Seu site é incrível *_*" spellcheck="true" required></textarea>
+            </div>
+
+            <input class="main-button -form" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <a href="https://twitter.com/marcobrunobr" target="_blank">
+            <img class="icon" src="assets/img/twitter.png" alt="Logo do Twitter">
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=Hg9uDsSKu8c" target="_blank">
+            <img class="icon" src="assets/img/youtube.png" alt="Logo do YouTube">
+        </a>
+
+        <a href="https://discord.gg/VmYQw9cMYm" target="_blank">
+            <img class="icon" src="assets/img/discord.png" alt="Logo do Discord">
+        </a>
+    </footer>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 
 </html>
