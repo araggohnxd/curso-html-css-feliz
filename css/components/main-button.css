@@ -10,11 +10,24 @@
     margin-right: 0;
     text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
     transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;
 }
 
+.main-button.-form {
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    font-family: 'Fira Code', serif;
+    margin-top: 20px;
+}
+
 .main-button:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
     background-color: #C4C4C4;
     box-shadow: 10px 10px 0px #000;
+}
+
+.main-button.-form:hover {
+    transform: scale(1.01);
 }
