@@ -10,6 +10,7 @@
     font-size: 25px;
     text-shadow: none;
     margin-bottom: 50px;
+    transition: color 200ms ease-in-out;
 }
 
 .main-carousel .wrapperCarousel {
@@ -25,6 +26,18 @@
 
 .main-carousel .wrapper {
     scroll-snap-align: center;
+}
+
+.main-carousel .wrapper:hover .carousel-img.-nofit {
+    background-color: #AB79CC;
+}
+
+.main-carousel .wrapper:hover .carousel-img.-fit .icon {
+    opacity: 0.7;
+}
+
+.main-carousel .wrapper:hover .main-subtitle {
+    color: #FFF;
 }
 
 .main-carousel::after {
