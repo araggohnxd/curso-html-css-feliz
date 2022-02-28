@@ -1,5 +1,5 @@
-Projeto desenvolvido a partir do "Curso de HTML e CSS feliz", elaborado e aplicado pelo educador e desenvolvedor @marcobrunodev.
+Project developed out of the course "Curso de HTML e CSS Feliz", created and applied by educator and developer Marco Bruno.
 
-Domínio do GitHub Pages: https://araggohnxd.github.io/curso-html-css-feliz/
+GitHub Pages deployment: https://araggohnxd.github.io/curso-html-css-feliz/
 
-Link para o curso: https://www.firedlabs.com
+Link to the course: https://www.firedlabs.com
